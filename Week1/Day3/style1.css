@@ -1,0 +1,12 @@
+@keyframes fadeIn{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 500px;
+    }
+}
+img{
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}

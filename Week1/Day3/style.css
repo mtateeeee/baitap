@@ -1,0 +1,100 @@
+button{
+    background-color: orange;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 25px;
+    margin: 250px;
+    transition-property:inherit;
+    transition-duration: 1s;
+}
+button:hover{
+    transform: scale(1.5);
+    
+}
+div.wrapper{
+    position: relative;
+    margin: 100px;
+}
+img{
+    position: absolute;
+    object-fit: cover;
+    transition-duration: 1s;
+    transform-origin: top;
+    margin: 300px;
+}
+
+
+div.wrapper:hover img.flower1{
+    transform: rotate(0deg);
+}
+
+div.wrapper:hover img.flower2{
+    transform: rotate(20deg);
+}
+ 
+div.wrapper:hover img.flower3{
+    transform: rotate(40deg);
+}
+
+div.wrapper:hover img.flower4{
+    transform: rotate(60deg);
+}
+
+div.wrapper:hover img.flower5{
+    transform: rotate(80deg);
+}
+
+div.wrapper:hover img.flower6{
+    transform: rotate(100deg);
+}
+
+div.wrapper:hover img.flower7{
+    transform: rotate(120deg);
+}
+
+div.wrapper:hover img.flower8{
+    transform: rotate(140deg);
+}
+
+div.wrapper:hover img.flower9{
+    transform: rotate(160deg);
+}
+
+div.wrapper:hover img.flower10{
+    transform: rotate(180deg);
+}
+
+div.wrapper:hover img.flower11{
+    transform: rotate(200deg);
+}
+
+div.wrapper:hover img.flower12{
+    transform: rotate(220deg);
+}
+
+div.wrapper:hover img.flower13{
+    transform: rotate(240);
+}
+
+div.wrapper:hover img.flower14{
+    transform: rotate(260deg);
+}
+
+div.wrapper:hover img.flower15{
+    transform: rotate(280deg);
+}
+
+div.wrapper:hover img.flower16{
+    transform: rotate(300deg);
+}
+
+div.wrapper:hover img.flower17{
+    transform: rotate(320deg);
+}
+
+div.wrapper:hover img.flower18{
+    transform: rotate(340deg);
+}
+
+ 
+ 
