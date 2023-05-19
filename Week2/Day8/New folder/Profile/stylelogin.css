@@ -1,0 +1,220 @@
+.body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 1366px;
+    height: 849px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40px;
+    justify-content: space-between;
+}
+
+.logo p {
+
+
+    left: 264px;
+    top: 327px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 20px;
+    line-height: 84px;
+    padding-left: 88px;
+
+}
+
+.logininfor {
+    width: 567px;
+}
+
+.logininfor p {
+    /* width: 212px;
+    height: 47px; */
+    left: 264px;
+    top: 327px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 84px;
+    padding-left: 88px;
+
+}
+
+.username p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.password p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.usernameinput {
+    padding-left: 88px;
+}
+
+.loginbtn {
+
+
+
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.loginbtn button {
+    background-color: #D885A3;
+    width: 150px;
+    height: 46px;
+    border-radius: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.loginbtn button:after {
+
+
+    content: url("Vector (33).png");
+    padding-left: 10px;
+}
+
+.gg button:after {
+    content: url("Google.png");
+}
+
+.git button:after {
+    content: url("Github.png");
+}
+
+.fb button:after {
+    content: url("Facebook.png");
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.social p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #6096B4;
+
+}
+
+.socialbtn {
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 30px;
+}
+
+.socialtxt {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.socialbtn button {
+    width: 125px;
+    height: 50px;
+    left: calc(50% - 125px/2 - 593.5px);
+    top: calc(50% - 50px/2 + 250px);
+    background: #FFFFFF;
+    border: 1px solid #6096B4;
+    border-radius: 40px;
+}
+
+#txtname {
+    width: 478px;
+    height: 46px;
+    left: 264px;
+    top: 462px;
+
+    background: #C0DBEA;
+    border-radius: 4px;
+}
+
+#txtpass {
+    width: 478px;
+    height: 46px;
+    left: 264px;
+    top: 462px;
+
+    background: #C0DBEA;
+    border-radius: 4px;
+}
+
+.loginimg {
+    display: flex;
+    position: relative;
+}
+.loginimg1{
+    width: 700px;
+    display: flex;
+    z-index: 2;
+    position: relative;
+    top: 100px;
+    right: 230px;
+    padding-top: 100px;
+    
+}
+
+.loginimgbg {
+    background-color: #C0DBEA;
+    z-index: -1;
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    border-radius: 40px;
+    right: 0;
+}
+.pass{
+    display: flex;
+    justify-content: space-between;
+}
